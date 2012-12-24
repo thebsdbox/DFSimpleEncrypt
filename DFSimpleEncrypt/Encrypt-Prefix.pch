@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Encrypt' target in the 'Encrypt' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
