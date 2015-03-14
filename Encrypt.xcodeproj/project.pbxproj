@@ -213,7 +213,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/dan/Dropbox/Coding/Encrypt/DFSimpleEncrypt/Encrypt-Prefix.pch";
+				GCC_PREFIX_HEADER = "DFSimpleEncrypt/Encrypt-Prefix.pch";
 				GCC_VERSION = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -223,7 +223,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/dan/Dropbox/Coding/Encrypt/DFSimpleEncrypt/Encrypt-Prefix.pch";
+				GCC_PREFIX_HEADER = "DFSimpleEncrypt/Encrypt-Prefix.pch";
 				GCC_VERSION = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

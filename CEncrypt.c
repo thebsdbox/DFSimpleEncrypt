@@ -55,7 +55,7 @@ int touufrombits(unsigned char *out, const unsigned char *in, long inlen)
     int len;
     
     if (inlen > 45) return -1;
-    len = (inlen * 4 + 2) / 3 + 1;
+    len = (int)(inlen * 4 + 2) / 3 + 1;
     *out++ = uudigit[inlen];
     
     for (; inlen >= 3; inlen -= 3) {
